@@ -3,7 +3,7 @@ var express = require( 'express' ),
 	mongoose = require( 'mongoose' ),
 	bodyParser = require( 'body-parser' ),
 	apiRouter = require ('./app/config/routes' ),
-	DB = 'mongodb://locolhost:27017/blog-app'; //connects our local db on port 27017
+	DB = 'mongodb://localhost:27017/blog-app'; //connects our local db on port 27017
 	port = 3000;
 
 //bodyParser config:
